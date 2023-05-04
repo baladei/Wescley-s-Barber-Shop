@@ -1,0 +1,22 @@
+{
+    "Agendamentos": [],
+    
+    "categories": [
+        {
+            "id": 1,
+            "name": "Corte"
+        },
+        {
+            "id": 2,
+            "name": "Barba"
+        },
+        {
+            "id": 3,
+            "name": "Corte e Barba"
+        },
+        {
+            "id": 4,
+            "name": "Pézinho/Sobrancelha"
+        }
+    ]
+}
