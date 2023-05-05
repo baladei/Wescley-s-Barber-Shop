@@ -13,6 +13,7 @@
 
 .item {
     margin-right: 1em;
+    font-size: 1.2em;
 }
 
 .item a {
@@ -21,5 +22,9 @@
 }
 
 .item a:hover {
-    color: #FFBB33;
+    color: red;
+}
+
+.navbar img {
+    width: 5em;
 }

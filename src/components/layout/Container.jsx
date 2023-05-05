@@ -1,8 +1,8 @@
-import './container.css'
+import './Container.css'
 
 export const Container = (props) => {
   return (
-    <div className='container'>
+    <div className={`container ${props.customClass}`}>
       {props.children}
     </div>
   )

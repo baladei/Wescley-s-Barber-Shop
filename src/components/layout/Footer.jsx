@@ -5,13 +5,13 @@ import './Footer.css'
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div className="social_list">
+      <div className="social-list">
           <FaFacebook />
           <FaInstagram />
           <FaLinkedin />
       </div>
-      <span>Wescley's Barber Shop</span>
-      <p>Since 2015</p>
+      <span className="logo-name">Wescley's Barber Shop</span>
+      <p className="copy-right">Since 2015</p>
     </footer>
   )
 }

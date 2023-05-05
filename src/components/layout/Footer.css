@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.social_list {
+.social-list {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -13,17 +13,22 @@
     margin-bottom: 3em;
 }
 
-.social_list svg {
+.social-list svg {
     font-size: 1.5em;
     cursor: pointer;
 }
 
-.social_list svg:hover {
+.social-list svg:hover {
     color: red;
     transition: .5s;
 }
 
-p {
+.copy-right {
     font-size: 12px;
     margin-top: 1em;
+    color: red;
+}
+
+.logo-name {
+    color: gold;
 }
