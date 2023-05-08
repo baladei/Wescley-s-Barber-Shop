@@ -3,6 +3,8 @@
     justify-content: space-between;
     background-color: #222;
     padding: 1em;
+    align-items: center;
+    padding: 1em 4em;
 }
 
 .list {
@@ -22,9 +24,9 @@
 }
 
 .item a:hover {
-    color: red;
+    color: salmon;
 }
 
 .navbar img {
-    width: 5em;
+    width: 70px;
 }

@@ -19,14 +19,14 @@
 }
 
 .social-list svg:hover {
-    color: red;
+    color: salmon;
     transition: .5s;
 }
 
 .copy-right {
     font-size: 12px;
     margin-top: 1em;
-    color: red;
+    color: salmon;
 }
 
 .logo-name {
