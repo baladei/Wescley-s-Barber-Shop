@@ -12,6 +12,7 @@ import { Company } from './components/pages/Company'
 import { Navbar } from './components/layout/Navbar'
 import { Footer } from './components/layout/Footer'
 import { Container } from './components/layout/Container'
+import { NewJob } from './components/pages/NewJob'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/diary' element={<Diary />} />
         <Route path='/company' element={<Company />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/newjob' element={<NewJob />} />
       </Routes>
       </Container>
     <Footer />
