@@ -1,13 +1,12 @@
 .diary {
     display: flex;
-    flex-direction: column;
-    margin-top: 3em;
+    justify-content: space-between;
+    margin: 3em 2em;
     color: red;
 }
 
 .diary span {
     text-align: center;
-    margin-bottom: 2em;
     font-size: 1.2em;
     color: #444;
 }
@@ -16,5 +15,73 @@
     border: 1px solid red;
     border-radius: 10px;
     background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 33em;
+}
 
+.contact {
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+    
+    .contact label {
+        padding-right: .5rem;
+        color: salmon;
+    }
+    
+    .contact input {
+        padding: 0rem .5rem;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        border: 3px solid salmon;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    .form legend {
+        text-align: center;
+        color: salmon;
+        padding: 0rem 1rem;
+    }
+    
+    .form input {
+        border: 2px solid salmon;
+    }
+    
+    .form input:focus {
+        outline : 1px solid salmon;
+    }
+    
+    .form textarea {
+        border: 2px solid salmon;
+        resize: none;
+    }
+    
+    .form textarea:focus {
+        outline : 1px solid salmon;
+    }
+    
+    .form button {
+        background: #fff;
+        color: salmon;
+        border: none;
+        border-radius: 10px;
+        padding: .5rem;
+        gap: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+        width: 50vw;
+        margin: 0 auto;
+    }
+    
+    .form button:hover {
+        background: salmon;
+        color: #fff;
+        transition: 1s;
+    }
